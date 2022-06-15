@@ -5,12 +5,10 @@ int main(void)
     int t, r, i;
 
     scanf ("%d", &t);
-
     while (t--)
     {
         scanf ("%d", &r);
         scanf ("%s", str);
-
         i = -1;
         while (str[++i])
             for (int j = 0; j < r; j++)
